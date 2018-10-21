@@ -1,0 +1,12 @@
+<h2> COUNT </h2>
+{{fulltext}}
+<br/>
+<h1> there are {{count}} words in your text </h1>
+<form action="{%url 'count'%}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br />
+    <input type="submit" value="home!"/>
+    <h1>
+        there is the avgnumber {{avgnum}}
+        the word is repeated {{fulltext.count}} number of times
+    </h1> 
